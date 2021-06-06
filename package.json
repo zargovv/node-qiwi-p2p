@@ -1,0 +1,14 @@
+{
+  "name": "qiwi-p2p",
+  "version": "0.1.0a",
+  "main": "dist/index.js",
+  "author": "Max Zargov <zargovv@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.9.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "exact-math": "^2.2.3"
+  }
+}
