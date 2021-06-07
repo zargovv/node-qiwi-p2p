@@ -2,7 +2,7 @@
 
 A module for node.js to interact with Qiwi Wallet's P2P System Api.
 
-> Still in alpha v0.1.0
+> Still in alpha
 
 ##### node-qiwi-p2p design features:
 
