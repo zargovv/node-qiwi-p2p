@@ -1,6 +1,6 @@
 ## node-qiwi-p2p
 
-A module for node.js to interact with Qiwi Wallet's P2P System Api.
+An unofficial node.js module to interact with Qiwi Wallet's P2P System API.
 
 > Still in alpha
 
@@ -45,7 +45,7 @@ Links
 
 ### Commit convention
 
-> This is adapted and inspired by [discord.js's](https://github.com/discordjs/discord.js-next/blob/master/.github/COMMIT_CONVENTION.md) commit convention.
+> This is adapted and inspired by [discord.js](https://github.com/discordjs/discord.js-next/blob/master/.github/COMMIT_CONVENTION.md)'s commit convention.
 
 ##### Messages must be matched by the following regex:
 

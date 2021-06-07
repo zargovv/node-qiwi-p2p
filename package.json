@@ -4,6 +4,16 @@
   "main": "dist/index.js",
   "author": "Max Zargov <zargovv@yandex.ru>",
   "license": "MIT",
+  "description": "An unofficial node.js module to interact with Qiwi Wallet's P2P System API.",
+  "keywords": [
+    "qiwi",
+    "api",
+    "p2p",
+    "wallet"
+  ],
+  "repository": {
+    "url": "https://github.com/zargovv/node-qiwi-p2p.git"
+  },
   "devDependencies": {
     "@types/node": "^15.9.0",
     "typescript": "^4.3.2"
