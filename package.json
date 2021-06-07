@@ -1,6 +1,6 @@
 {
   "name": "qiwi-p2p",
-  "version": "0.1.1a",
+  "version": "0.1.0a",
   "main": "dist/index.js",
   "author": "Max Zargov <zargovv@yandex.ru>",
   "license": "MIT",
