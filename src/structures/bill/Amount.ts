@@ -1,4 +1,4 @@
-type AmountResolvable =
+export type AmountResolvable =
   | BillAmount
   | (Omit<IBillAmount, 'value'> & { value: string | number });
 

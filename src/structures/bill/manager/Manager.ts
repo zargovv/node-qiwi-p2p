@@ -1,20 +1,18 @@
-import * as math from 'exact-math';
-
 import Client from '../../client/Client';
-import BillCustomFields from '../CustomFields';
 import BillManagerCache from './Cache';
 
-import BillAmount, { IBillAmount } from '../Amount';
+import BillCustomFields, { CustomFieldsResolvable } from '../CustomFields';
+import BillAmount, { AmountResolvable } from '../Amount';
 import Bill, { BillCustomer, IBill } from '../Bill';
 import { FetchResponse } from '@/utils/Route';
 
 interface CreateBillOptions {
-  amount: IBillAmount;
+  amount: AmountResolvable;
   remaining?: number;
   expiration?: Date | string | number;
   customer?: BillCustomer;
   comment?: string;
-  customFields?: BillCustomFields;
+  customFields?: CustomFieldsResolvable;
 }
 
 class BillManager {
@@ -36,7 +34,7 @@ class BillManager {
     const tzOffset = date.getTimezoneOffset();
     const offset = {
       negative: tzOffset < 0,
-      hours: Math.abs(Number(math.floor(math.div(tzOffset, 60), 1))),
+      hours: Math.abs(Number(Math.floor(tzOffset / 60))),
       mins: Math.abs(tzOffset % 60)
     };
 
